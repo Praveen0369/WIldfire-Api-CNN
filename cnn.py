@@ -28,7 +28,7 @@ class CNNET:
         plt.imshow(input_image)
 
         plt.subplot(1, 2, 2)
-        plt.title('AdaNet')
+        plt.title('CNet')
         plt.imshow(output_image_ada[0])
         plt.savefig('foo.png')
         return 'foo.png'
